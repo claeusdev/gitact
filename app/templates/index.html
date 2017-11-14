@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome to Gitact, Discover awesome developers and connect.</title>
+</head>
+<body>
+	<h2>Gitact</h2>
+	<p>Find and connect with developers around you.</p>
+
+	<form role="form" method="post" onsubmit="return false">
+		<div class="form-group">
+			<input type="text" name="language" placeholder="Enter a Programming language">
+			<input type="text" name="location" placeholder="Enter a location">
+		</div>
+		<button type="submit" id="findDev">Find a developer</button>
+		<button type="submit" id="newSearch">New Search</button>
+		<button type="submit" id="nextDev">Next Developer</button>
+	</form>
+	<div id="results">
+		
+	</div>
+		<script src="{{ url_for('static', filename='js/jquery.min.js')}}"></script>
+	<script src="{{ url_for('static', filename='js/app.js')}}"></script>
+</body>
+</html>
