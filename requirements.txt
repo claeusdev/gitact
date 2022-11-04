@@ -90,7 +90,7 @@ SQLAlchemy==1.3.0
 sqlparse==0.1.18
 tabulate==0.7.5
 termcolor==1.1.0
-Twisted==22.4.0
+Twisted==22.10.0
 ubuntuone-client-data==14.4
 udemy-dl==0.2.2a2
 unicode-slugify==0.1.3
